@@ -1,6 +1,6 @@
-将已经解包的 Ramdisk 打包为 RockChip 设备可用的 Boot/Recovery 镜像
+将已经打包的的 Kernel 解包为 RockChip 设备的原始 Ramdisk
 
 用法: 
-mkRkBootImg.bat <Ramdisk 文件夹路径> <原始镜像文件大小 (字节)>
+unRkBootImg.bat <boot.img 文件路径>
 
-2022/04/12 @azwhikaru
+2022/04/13 @azwhikaru
